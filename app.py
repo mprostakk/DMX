@@ -12,7 +12,7 @@ connection = serial.Serial( '/dev/ttyUSB0', 9600 )
 json_data = {
     "type":"single",
     "scenes": [
-        [ 0 for x in range ( 0, 386 ) ]
+        [0] * 386
     ]
 
 }
